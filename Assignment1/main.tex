@@ -174,11 +174,21 @@ correct to the nearest whole number.
 \includegraphics[width=0.48\textwidth]{./figs/11.a.png}
 \end{figure}
 \begin{table}[ht!]
-    \begin{tabular}{|l|l|l|l|l|l|}
+    \begin{tabular}{|l|c|c|}
     \hline
-    h & $\theta_1$ & $\theta_2$ & $x$ & $y$ & answer \\
+    \textbf{Parameter} & \textbf{Symbol} & \textbf{Value} \\
     \hline
-    60m & 60\degree{} & 45\degree{} & {}? & {}? & {}? \\
+    Height of tower & h & 60m \\
+    \hline
+    Angle of dep.\ for ship A & $\theta_1$ & 60\degree{}\\
+    \hline
+    Angle of dep.\ for ship B & $\theta_2$ & 45\degree{}\\
+    \hline
+    Dist.\ of ship A from tower & $x$ & {}?\\
+    \hline
+    Dist.\ of ship B from tower & $y$ & {}?\\  
+    \hline
+    Dist.\ of ship A from ship B & answer & {}?\\
     \hline
     \end{tabular}
 \end{table}
@@ -189,7 +199,10 @@ The distance of ship B from light house ($y$) is given by $h \times \tan(\theta_
 \newline
 Since the two ships are on opposite sides of the light house the distance between them can be obtained by adding their distances to the light house 
 \newline
-$\therefore$ Distance between ships A and B (answer) $= x+y = h \times \theta_1 + h \times \theta_2 = 60 \times \sqrt3 + 60 \times 1 = 103.92 + 60 = 163.92$
+$\therefore$ Distance between ships A and B (answer) $=$
+\begin{multline} x+y = h \times \theta_1 + h \times \theta_2 \\= 60 \times \sqrt3 + 60 \times 1 \\= 103.92 + 60 = 163.92
+\nonumber
+\end{multline}
 \newline 
-$\therefore$ answer $= 164 $
+$\implies$ answer $= 164 $
 \end{document}
